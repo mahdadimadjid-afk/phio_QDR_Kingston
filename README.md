@@ -27,6 +27,27 @@ Our multi-test benchmark across four OpenQASM 2.0 implementations on `ibm_kingst
 | **Fusion $U3(\phi)$** | 4 $U3$ gates | **~360 shots**[span_17](start_span)[span_17](end_span) | **167 shots**[span_18](start_span)[span_18](end_span) | Moderate (~497)[span_19](start_span)[span_19](end_span) | **Noise Suppression:** Concentrates target state `11` and drops `00`[span_20](start_span)[span_20](end_span). |
 
 ---
+# Experimental Proof: Phonon Damping & Timing in Phi
+
+## Summary
+Execution on `ibm_kingston` (8192 shots) validating quantum signal stabilization 
+using a buffer qubit (q1) and Fibonacci/Zeckendorf non-periodic clock intervals.
+
+## Metrics
+- Backend: ibm_kingston
+- Job ID: damjnuo2fm4c73f33ub0
+- Target State Fidelity: 99.00%
+- Residual Noise / Phase Error: 1.00%
+
+## State Distribution
+- |00>: 50.51% (4138 shots)
+- |11>: 48.49% (3972 shots)
+- Noise (|01>, |10>): 1.00% (82 shots)
+
+## Files
+- `circuits/phi_sonar_buffer.qasm`
+- `results/job-damjnuo2fm4c73f33ub0-result.json`
+---
 
 ## Theoretical Framework
 
