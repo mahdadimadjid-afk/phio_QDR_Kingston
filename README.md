@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22917600.svg)](https://doi.org/10.5281/zenodo.22917600)
+
 # Phio-QDR-Kingston: Empirical Phase-Locked Dynamic Decoupling, Sonar Phase-Echo & Algorithmic Cryostat
 
 This repository presents an empirical study on dynamic decoupling sequences, golden-ratio phase rotation, and non-periodic Fibonacci phase-echoes (*Sonar Mode*) evaluated on the 127-qubit superconducting processor **`ibm_kingston`**, as well as its evolution into continuous-variable photonic simulations via **PennyLane** for room-temperature ternary stabilization.
