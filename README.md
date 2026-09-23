@@ -57,6 +57,8 @@ To achieve complete room-temperature stability, we transitioned the algorithmic 
 * **IBM Kingston (Superconducting Hardware):** Reached **~99% phase-locking fidelity**[span_2](start_span)[span_2](end_span). The remaining **~1% residual error margin** is directly attributed to physical gate calibration drift and hardware thermal decoherence on NISQ qubits[span_3](start_span)[span_3](end_span).
 * **PennyLane (Photonic Algorithmic Cryostat):** Achieved **100% state convergence and ternary stabilization** ($\mathbf{-1, 0, +1}$)[span_4](start_span)[span_4](end_span). By algorithmically dumping continuous phase noise into Mode 2 (Neutral Well), the system completely eliminates thermal state-degradation without physical cooling[span_5](start_span)[span_5](end_span).
 
+![Réponse Puit Neutre](puit_neutre.png)
+
 ---
 
 ## Theoretical Framework
